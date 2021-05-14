@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/inversion-social/convocatorias", {data:[{}],fetch:{},mutations:void 0});

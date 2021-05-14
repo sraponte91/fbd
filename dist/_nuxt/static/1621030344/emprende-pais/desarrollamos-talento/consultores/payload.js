@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/emprende-pais/desarrollamos-talento/consultores", {data:[{}],fetch:{},mutations:void 0});

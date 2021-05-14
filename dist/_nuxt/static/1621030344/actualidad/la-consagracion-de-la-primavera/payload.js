@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actualidad/la-consagracion-de-la-primavera", {data:[{}],fetch:{},mutations:void 0});

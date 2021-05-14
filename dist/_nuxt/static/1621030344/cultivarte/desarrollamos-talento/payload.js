@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cultivarte/desarrollamos-talento", {data:[{}],fetch:{},mutations:void 0});

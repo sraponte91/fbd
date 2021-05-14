@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/becas-al-talento/requisitos", {data:[{}],fetch:{},mutations:void 0});

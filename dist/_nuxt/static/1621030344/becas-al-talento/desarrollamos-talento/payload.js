@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/becas-al-talento/desarrollamos-talento", {data:[{}],fetch:{},mutations:void 0});

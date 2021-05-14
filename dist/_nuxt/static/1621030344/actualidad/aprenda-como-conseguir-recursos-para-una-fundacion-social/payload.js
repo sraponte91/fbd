@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actualidad/aprenda-como-conseguir-recursos-para-una-fundacion-social", {data:[{}],fetch:{},mutations:void 0});

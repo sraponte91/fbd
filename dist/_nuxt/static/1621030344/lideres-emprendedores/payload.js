@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/lideres-emprendedores", {data:[{}],fetch:{},mutations:void 0});

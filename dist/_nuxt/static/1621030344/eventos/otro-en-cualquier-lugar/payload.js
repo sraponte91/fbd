@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/eventos/otro-en-cualquier-lugar", {data:[{}],fetch:{},mutations:void 0});

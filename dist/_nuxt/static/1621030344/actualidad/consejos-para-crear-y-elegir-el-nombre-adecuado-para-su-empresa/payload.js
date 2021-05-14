@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actualidad/consejos-para-crear-y-elegir-el-nombre-adecuado-para-su-empresa", {data:[{}],fetch:{},mutations:void 0});

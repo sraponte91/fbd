@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cultivarte", {data:[{}],fetch:{},mutations:void 0});

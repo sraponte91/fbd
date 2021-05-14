@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/escuela-de-directores-landing", {data:[{}],fetch:{},mutations:void 0});

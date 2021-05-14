@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/voluntariado-fundacion-bolivar/inscripciones", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/inversion-social", {data:[{}],fetch:{},mutations:void 0});

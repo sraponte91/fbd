@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cultivarte/zona-ludica", {data:[{}],fetch:{},mutations:void 0});

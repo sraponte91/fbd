@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actualidad/cuales-deben-ser-los-principios-basicos-de-una-organizacion-social", {data:[{}],fetch:{},mutations:void 0});

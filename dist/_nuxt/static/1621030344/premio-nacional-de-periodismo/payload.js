@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/premio-nacional-de-periodismo", {data:[{}],fetch:{},mutations:void 0});

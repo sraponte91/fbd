@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cultivarte/donde-estamos-ubicados", {data:[{}],fetch:{},mutations:void 0});

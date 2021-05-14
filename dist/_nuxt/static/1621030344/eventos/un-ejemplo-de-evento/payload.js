@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/eventos/un-ejemplo-de-evento", {data:[{}],fetch:{},mutations:void 0});

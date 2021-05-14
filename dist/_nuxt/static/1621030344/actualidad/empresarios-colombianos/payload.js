@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/actualidad/empresarios-colombianos", {data:[{}],fetch:{},mutations:void 0});
