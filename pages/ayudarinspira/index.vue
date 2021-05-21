@@ -1,11 +1,42 @@
 <template>
   <main>
     <AyudarSlider />
-    <section
+    <section class="bg-white only-links-to">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
+        >
+          <div
+            @click="primeraEdicion"
+            class="linkse d-flex justify-content-center align-items-center text-center"
+          >
+            Primera Edición
+          </div>
+          <div
+            @click="segundaEdicion"
+            class="linkse d-flex justify-content-center align-items-center text-center"
+          >
+            Segunda Edición
+          </div>
+          <div
+            @click="terceraEdicion"
+            class="linkse d-flex justify-content-center align-items-center text-center"
+          >
+            Tercera Edición
+          </div>
+        </div>
+      </div>
+    </section>
+    <section v-if="show2"
       class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
     >
       <div class="container">
         <div class="sm-siz-container margin-0-auto">
+          <div class="text-center">
+            <h2 class="ff-sans-b d-none-991 mb-4" data-wow-duration="2s">
+            Segunda Edición
+          </h2>
+          </div>
           <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
             <h2 class="ff-sans-b ss d-block-991 d-none-n">
               Así conectamos <br />
@@ -49,53 +80,147 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="bg-white only-links-to">
-      <div class="container">
-        <h3
+        <div class="container mt-5">
+        <div class="text-center">
+          <h3
           class="ff-sans-b mb-5 text-center"
           style="color: #ff671b; padding-left: 20px; padding-right: 20px"
         >
           Conozca los momentos significativos de emprendimientos que soñaron,
           vivieron y creyeron en su proyecto.
         </h3>
-        <div
-          class="d-flex flex-wrap for-mg justify-content-center ff-nunito justify-content-start-767"
+        </div>
+        <b-row>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+        </b-row>
+        <b-row>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+          <b-col md="6">
+            <iframe
+              class="yt-vids-size"
+              src="https://www.youtube.com/embed/D5T3y4ljlTU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </b-col>
+        </b-row>
+      </div>
+      </div>
+    </section>
+    <section v-if="show1"
+      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre"
+    >
+      <div class="container">
+        <div class="sm-siz-container margin-0-auto">
+          <div class="text-center">
+            <h2 class="ff-sans-b d-none-991 mb-4" data-wow-duration="2s">
+            Primera Edición
+          </h2>
+          </div>
+          <div class="d-flex multiple-reapt align-items-start flex-wrap-991">
+            <h2 class="ff-sans-b ss d-block-991 d-none-n">
+              Así conectamos <br />
+              el talento con <br />
+              el cambio
+            </h2>
+            <h4 class="extr-tx ff-nunito d-block-991 d-none-n text-uppercase">
+              Emprendedores que <br />
+              sueñan, <br />
+              viven <br />
+              y creen.
+            </h4>
+            <div class="txt-points position-relative order-2-991">
+              <h2 class="ff-sans-b d-none-991">
+                Así conectamos <br />
+                el talento con <br />
+                el cambio
+              </h2>
+              <h4 class="extr-tx ff-nunito d-none-991 text-uppercase">
+                Emprendedores que <br />
+                sueñan, <br />
+                viven <br />
+                y creen.
+              </h4>
+              <div class="pra-p for-bgcol">
+                <p>
+                  En la Fundación Bolivar Davivienda trabajamos para entender,
+                  ayudar e inspirar a quienes lo necesitan para trascender y
+                  desarrollar su talento. Conocer de la experiencia de otros
+                  puede inspirarnos para encontrar el camino del éxito. Una guía
+                  oportuna puede hacer la diferencia.
+                </p>
+              </div>
+            </div>
+            <div class="img-points order-1-991">
+              <img
+                src="/images/desarrollamostalento_bloque_1b_860044a.jpg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container mt-5">
+        <div class="text-center">
+          <h3
+          class="ff-sans-b mb-5 text-center"
+          style="color: #ff671b; padding-left: 20px; padding-right: 20px"
         >
-          <div
-            @click="primeraEdicion"
-            class="linkse d-flex justify-content-center align-items-center text-center"
-          >
-            Primera Edición
-          </div>
-          <div
-            @click="segundaEdicion"
-            class="linkse d-flex justify-content-center align-items-center text-center"
-          >
-            Segunda Edición
-          </div>
-          <div
-            @click="terceraEdicion"
-            class="linkse d-flex justify-content-center align-items-center text-center"
-          >
-            Tercera Edición
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      v-if="show1"
-      id="1"
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre cultivat-main"
-    >
-      <HomeDots></HomeDots>
-      <div class="container">
-        <div class="text-center">
-          <h2 class="ff-sans-b d-none-991 mb-4" data-wow-duration="2s">
-            Primera Edición
-          </h2>
+          Conozca los momentos significativos de emprendimientos que soñaron,
+          vivieron y creyeron en su proyecto.
+        </h3>
         </div>
         <b-row>
           <b-col md="6">
@@ -142,84 +267,6 @@
           </b-col>
         </b-row>
       </div>
-    </section>
-    <section
-      v-if="show2"
-      id="2"
-      class="ig-tx-zing-zag desarrolla bg-white des-filarmonic-main desarroll-te-empre cultivat-main"
-    >
-      <div class="container">
-        <div class="text-center">
-          <h2 class="ff-sans-b d-none-991 mb-4" data-wow-duration="2s">
-            Segunda Edición
-          </h2>
-        </div>
-        <b-row>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-        </b-row>
-        <b-row>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-          <b-col md="6">
-            <iframe
-              class="yt-vids-size"
-              src="https://www.youtube.com/embed/D5T3y4ljlTU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </b-col>
-        </b-row>
       </div>
     </section>
     <section
